@@ -1,5 +1,5 @@
 # 🐾 Predicting Risk in Shelter Animals
-### Data Mining Course Project (2025)
+### Independent Project (2025)
 
 ![Python](https://img.shields.io/badge/Python-3.8%2B-blue?style=for-the-badge&logo=python&logoColor=white)
 ![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white)
@@ -10,15 +10,15 @@
 
  > **Author:** Kfir Diamond
 
-> **Course:** Advanced Topics in ML / Data Mining
+> **Project Type:** Personal Research
 
 > **Link to data:** https://catalog.data.gov/dataset/louisville-metro-ky-animal-service-intake-and-outcome
 ---
 
 ## 📖 Overview
-This project addresses a critical challenge in animal shelter management: identifying animals at high risk of negative outcomes upon intake. Using the **Louisville Metro KY Animal Service dataset**, we developed a predictive pipeline to classify animals as "At-Risk" (defined as outcomes of Euthanasia, Died, or Disposal).
+This project addresses a critical challenge in animal shelter management: identifying animals at high risk of negative outcomes upon intake. Using the **Louisville Metro KY Animal Service dataset**, I developed a predictive pipeline to classify animals as "At-Risk" (defined as outcomes of Euthanasia, Died, or Disposal).
 
-The project combines advanced classification architectures with clustering techniques to create actionable risk profiles for shelter staff.
+The project combines advanced classification architectures with clustering techniques to create actionable risk profiles for shelter staff and researchers.
 
 ---
 
@@ -31,7 +31,7 @@ To handle the categorical nature and imbalance of the data, the following steps 
 ---
 
 ## 📊 Supervised Learning: Model Benchmark
-We evaluated five distinct architectures, prioritizing **Recall** and **PR AUC** to ensure that high-risk cases are not overlooked.
+I evaluated five distinct architectures, prioritizing **Recall** and **PR AUC** to ensure that high-risk cases are not overlooked.
 
 | Model | Recall (Risk) | Precision | PR AUC | F1-Score |
 | :--- | :--- | :--- | :--- | :--- |
@@ -49,7 +49,7 @@ We evaluated five distinct architectures, prioritizing **Recall** and **PR AUC**
 A major focus of the recent analysis involved comparing clustering methods to identify "Risk Profiles" among the shelter population.
 
 ### Clustering Performance Comparison
-We compared **K-Modes** (designed for categorical data) against **Hierarchical Clustering**.
+I compared **K-Modes** (designed for categorical data) against **Hierarchical Clustering**.
 
 | Metric | K-Modes | Hierarchical |
 | :--- | :--- | :--- |
